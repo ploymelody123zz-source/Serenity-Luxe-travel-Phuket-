@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Serenity Luxe Travel Phuket</title>
+  <title>Luxury Travel Phuket</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Serenity Luxe Travel Phuket</h1>
+    <div class="logo-area">
+      <img src="images/logo.png" alt="Luxury Travel Phuket Logo">
+      <h1>Luxury Travel Phuket</h1>
+    </div>
     <nav>
       <a href="index.html">Home</a>
+      <a href="about.html">About</a>
       <a href="destinations.html">Destinations</a>
       <a href="packages.html">Packages</a>
       <a href="contact.html">Contact</a>
@@ -18,13 +23,15 @@
   </header>
 
   <section class="hero">
-    <h2>Luxury Redefined in Phuket</h2>
-    <p>Exclusive travel experiences with private yachts, five-star villas, and serene escapes.</p>
-    <a href="packages.html" class="btn">Explore Packages</a>
+    <div class="hero-content">
+      <h2>Experience the Art of Luxury</h2>
+      <p>Indulge in premium escapes, private villas, and breathtaking blue seas of Phuket.</p>
+      <a href="packages.html" class="btn">Explore Packages</a>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Serenity Luxe Travel Phuket. All Rights Reserved.</p>
+    <p>© 2025 Luxury Travel Phuket. Crafted with ☀️ from Thailand.</p>
   </footer>
 </body>
 </html>
